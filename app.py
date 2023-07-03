@@ -25,7 +25,7 @@ def hello_world():
     #loads model
     model = load_model(r'C:\Users\97798\Downloads\Stock Vision\Stock prediction\LSTM-model\adbl_model.h5')
 
-    df = pd.read_csv('./Data/adblfinal.csv')
+    df = pd.read_csv('./Data/ADBL.csv')
 
     #dataframe with only close price
     data = df.filter(['c'])
